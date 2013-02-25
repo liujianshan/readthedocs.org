@@ -1,4 +1,4 @@
-The build process
+生成过程
 =================
 
 .. Keeping this for backwards compat
@@ -16,12 +16,12 @@ When RTD builds your project, it sets the ``READTHEDOCS`` environment variable t
     else:
         html_theme = 'nature'
 
-Deleting a stale or broken build environment
+删除陈旧或破损的构建环境
 --------------------------------------------
 
 RTD doesn't expose this in the UI, but it is possible to remove the build directory of your project. If you want to remove a build environment for your project, hit http://readthedocs.org/wipe/<project_slug>/<version_slug>/. You must be logged in to do this.
 
-Packages installed in the build environment
+构建环境中安装的软件包
 -------------------------------------------
 
 The build server does have a select number of C libraries installed, because they are used across a wide array of python projects. We can't install every C library out there, but we try and support the major ones. We currently have the following libraries installed:
@@ -33,7 +33,7 @@ The build server does have a select number of C libraries installed, because the
     * libxslt1.1
     * libxml2-dev
 
-Understanding what's going on
+了解这是怎么回事
 -----------------------------
 
 .. note:: Builds happen on a server using only the RTD Public API. There is no reason that you couldn't build your own independent builder that wrote into the RTD namespace. The only thing that is currently unsupported there is a saner way than uploading the processed files as a zip.
@@ -58,7 +58,7 @@ An example in code::
     purge_version(version, subdomain=True,
                     mainsite=True, cname=True)
 
-Writing your own builder
+编写您自己的建设者
 ------------------------
 
 The documentation build system in RTD is made plugable, so that you can build out your own backend. If you have a documentation format that isn't currently supported, you can add support by contributing a backend.

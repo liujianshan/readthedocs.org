@@ -1,4 +1,4 @@
-Changes
+变更
 =======
 
 We have started keeping track of major releases so that it is easier for people using RTD internally at companies to have sane upgrade cycles. We will be documenting the major and backwards incompatible features here.

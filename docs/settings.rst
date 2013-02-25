@@ -1,4 +1,4 @@
-Interesting Settings
+有趣的设置
 ====================
 
 USE_SUBDOMAIN

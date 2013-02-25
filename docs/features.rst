@@ -1,9 +1,9 @@
-Read the Docs features
+Read the Docs 功能
 ======================
 
 This will serve as a list of all of the features that Read the Docs currently has. Some features are important enough to have their own page in the docs, others will simply be listed here.
 
-Github Integration
+Github 整合
 ------------------
 
 We now support linking to GitHub by default in the sidebar. It links to the page on GitHub, and directly links to the edit view as well. This should help people quickly update typos and send pull requests to contribute to project documentation.
@@ -26,25 +26,25 @@ It can be used like this::
           Edit on GitHub</a></li>
       {% endif %}
 
-Screenshot
+截图
 ~~~~~~~~~~
 
 .. image:: /img/edit_on_github.png
 
 
-Auto-updating
+自更新
 -------------
 
 The :doc:`webhooks` page talks about the different way you can ping RTD to let us know your project has been updated. We have official support for Github, and anywhere else we have a generic post-commit hook that allows you to POST to a URL to get your documentation built.
 
-Heavily Cached
+重缓存
 --------------
 
 We run Varnish in front of RTD, so a lot of the docs you look at will be served out of memory. This is really great for the "Look up and link" that happens a lot on IRC channels. The person who looks up the link will cache the page, and the person they link it to will get it served really quickly.
 
 We also bust caches on all documentation on the RTD domain (not CNAMEs, yet) when you build your docs, so you shouldn't have problems with stale caches.
 
-Versions
+版本
 --------
 
 Versions are supported at the Version Control level. We support tags and branches that map to versions in RTD parlance. Not all version control systems are equally supported. We would love to accept patches from users of other VCS systems to gain equivalent features across systems.
@@ -65,22 +65,22 @@ Version Control Support Matrix
 +------------+------------+-----------+------------+-----------+
 
 
-PDF Generation
+PDF 生成
 --------------
 
 When you build your project on RTD, we automatically build a PDF of your projects documentation. We also build them for every version that you upload, so we can host the PDFs of your latest documentation, as well as your latest stable releases as well.
 
-Search
+搜索
 ------
 
 We provide full-text search across all of the pages of documentation hosted on our site. This uses the excellent Haystack project and Solr as the search backend. We hope to be integrating this into the site more fully in the future.
 
-Alternate Domains
+备用域名
 -----------------
 
 We provide support for CNAMEs, Subdomains, and a shorturl for your project as well. This is outlined in the :doc:`alternate_domains` section.
 
-Intersphinx Support
+Intersphinx 支持
 -------------------
 
 We host intersphinx catalogs for all projects built on Read the Docs. For more info on this support, read the Sphinx docs on  :mod:`Intersphinx <sphinx:sphinx.ext.intersphinx>`. Your configuration should look something like this::

@@ -1,4 +1,4 @@
-Read the Docs Public API
+Read the Docs 公共API
 =========================
 
 We have a limited public API that is available for you to get data out of the site. This page will only show a few of the basic parts, please file a ticket or ping us on IRC (#readthedocs on `Freenode (chat.freenode.net) <http://webchat.freenode.net>`_) if you have feature requests.
@@ -7,7 +7,7 @@ This document covers the read-only API provided. We have plans to create a read/
 
 The API is written in Tastypie, which provides a nice ability to browse the API from your browser. If you go to http://readthedocs.org/api/v1/?format=json and just poke around, you should be able to figure out what is going on.
 
-A basic API client using slumber
+一个基本的API客户端使用睡眠
 --------------------------------
 
 You can use `Slumber <http://slumber.in/>`_ to build basic API wrappers in python. Here is a simple example of using slumber to interact with the RTD API::
@@ -38,7 +38,7 @@ You can use `Slumber <http://slumber.in/>`_ to build basic API wrappers in pytho
     else:
         print json.dumps(val, indent=4)
 
-Example of adding a user to a project
+将用户添加到一个项目的例子
 -------------------------------------
 
 ::
@@ -70,7 +70,7 @@ Example of adding a user to a project
     print "After users: %s" % project2_objects['users']
 
 
-API Endpoints
+API端点
 -------------
 
 Feel free to use cURL and python to look at formatted json examples. You can also look at them in your browser, if it handles returned json.
@@ -79,7 +79,7 @@ Feel free to use cURL and python to look at formatted json examples. You can als
 
     curl http://readthedocs.org/api/v1/project/pip/?format=json | python -m json.tool
 
-Root
+根
 ----
 .. http:method:: GET /api/v1/
 
@@ -113,7 +113,7 @@ Root
    :data string list_endpoint: API endpoint for resource.
    :data string schema: API endpoint for schema of resource.
 
-Builds
+构建
 ------
 .. http:method:: GET /api/v1/build/
 
@@ -140,7 +140,7 @@ Builds
    :data array objects: Array of `Build`_ objects.
 
 
-Build
+构建
 -----
 .. http:method:: GET /api/v1/build/{id}/
 
@@ -179,7 +179,7 @@ Build
    :data string type: Build type ("html", "pdf", "man", or "epub")
    :data string version: URI for Version of Build.
 
-Files
+文件
 -----
 .. http:method:: GET /api/v1/file/
 
@@ -206,7 +206,7 @@ Files
    :data integer total_count: Total number of Files.
    :data array objects: Array of `File`_ objects.
 
-File
+文件
 ----
 .. http:method:: GET /api/v1/file/{id}/
 
@@ -233,7 +233,7 @@ File
    :data object project: A `Project`_ object for the file's project.
    :data string resource_uri: URI for File object.
 
-Projects
+项目
 --------
 .. http:method:: GET /api/v1/project/
 
@@ -261,7 +261,7 @@ Projects
    :data array objects: Array of `Project`_ objects.
 
    
-Project
+项目
 -------
 .. http:method:: GET /api/v1/project/{id}
 
@@ -329,7 +329,7 @@ Project
    :data string version: DEPRECATED. 
 
 
-Users
+用户
 -----
 .. http:method:: GET /api/v1/user/
 
@@ -356,7 +356,7 @@ Users
    :data array USERS: Array of `User`_ objects.
  
  
-User
+用户
 ----
 .. http:method:: GET /api/v1/user/{id}/
 
@@ -383,7 +383,7 @@ User
    :data string username: User name.
    
  
-Versions
+版本
 --------
 .. http:method:: GET /api/v1/version/
 
@@ -411,7 +411,7 @@ Versions
    :data array objects: Array of `Version`_ objects.
 
 
-Version
+版本
 -------
 .. http:method:: GET /api/v1/version/{id}
 
@@ -445,10 +445,10 @@ Version
    :data string verbose_name: Usually the same as Slug.
 
 
-Filtering Examples
+过滤的例子
 ------------------
 
-Find Highest Version
+最高版本
 ~~~~~~~~~~~~~~~~~~~~
 ::
 
@@ -473,7 +473,7 @@ Find Highest Version
       }
 
 
-Compare Highest Version
+最高版本比较
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 This will allow you to compare whether a certain version is the highest version of a specific project. The below query should return a `'is_highest': false` in the returned dictionary.
@@ -502,7 +502,7 @@ This will allow you to compare whether a certain version is the highest version 
       }
  
 
-File Search
+文件搜索
 ~~~~~~~~~~~
 ::
 
@@ -559,7 +559,7 @@ File Search
           ]
       }
 
-Anchor Search
+锚搜索
 ~~~~~~~~~~~~~
 ::
 

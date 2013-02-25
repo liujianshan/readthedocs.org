@@ -1,4 +1,4 @@
-Getting Help
+获取帮助
 =============
 
 The easiest way to get help with the project is to join the ``#readthedocs``

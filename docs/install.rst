@@ -1,6 +1,6 @@
 .. _installing-read-the-docs:
 
-Installation
+安装
 =============
 
 Installing RTD is pretty simple. Here is a step by step plan on how to do it.

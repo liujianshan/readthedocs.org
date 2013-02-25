@@ -1,4 +1,4 @@
-Privacy Levels
+隐私级别
 ==============
 
 Read the Docs supports 3 different privacy levels on 2 different objects;

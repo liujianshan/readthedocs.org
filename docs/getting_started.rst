@@ -1,4 +1,4 @@
-Getting Started
+入门
 ===============
 
 It's really easy to start using RTD for your project's documentation. This
@@ -8,7 +8,7 @@ If you are already using Sphinx_ for your docs, skip ahead to
 :ref:`import-docs`.
 
 
-Write Your Docs
+撰写你的文档
 ---------------
 
 Install Sphinx_, and create a directory inside your project to hold your docs::
@@ -37,7 +37,7 @@ changes to your public repository.
 
 .. _import-docs:
 
-Import Your Docs
+导入你的文档
 ----------------
 
 `Sign up`_ for an account and `log in`_. Visit your dashboard_ and click

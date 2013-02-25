@@ -1,6 +1,6 @@
 .. _designing-read-the-docs: 
 
-Designing Read the Docs
+设计 Read the Docs
 =======================
 
 So you're thinking of contributing some of your
@@ -12,7 +12,7 @@ working with Read the Doc's CSS and static assets.
 To start, you should follow the :ref:`installing-read-the-docs` instructions
 to get a working copy of the Read the Docs repository locally.
 
-Style Catalog
+风格目录
 -------------
 
 Once you have RTD running locally, you can open ``http://localhost:8000/style-catalog/``
@@ -24,7 +24,7 @@ This way you can quickly get started writing HTML -- or if you're
 modifying existing styles you can get a quick idea of how things
 will change site-wide.
    
-Typekit Fonts
+Typekit字体
 -------------
 
 RTD uses `FF Meta`_ via TypeKit to render most display and body text.
@@ -34,7 +34,7 @@ create a site profile for ``localhost:8000`` that includes the linked font.
 
 .. _FF Meta: https://typekit.com/fonts/ff-meta-web-pro
 
-Readthedocs.org Changes
+Readthedocs.org 变更
 -----------------------
 
 Styles for the primary RTD site are located in ``media/css`` directory.
@@ -42,7 +42,7 @@ Styles for the primary RTD site are located in ``media/css`` directory.
 These styles only affect the primary site -- **not** any of the generated
 documentation using the default RTD style.
 
-Sphinx Template Changes
+Sphinx 模板变更
 -----------------------
 
 Styles for generated documentation are located in ``readthedocs/templates/sphinx/_static/rtd.css``
@@ -51,7 +51,7 @@ Of note, projects will retain the version of that file they were last built with
 editing that file and not seeing any changes to your local built documentation, you need to rebuild
 your example project.
 
-Contributing
+贡献
 ------------
 
 Contributions should follow the :ref:`contributing-to-read-the-docs` guidelines where applicable -- ideally you'll

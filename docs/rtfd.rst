@@ -1,4 +1,4 @@
-Configuration of the production servers
+生产服务器的配置
 =======================================
 
 This document is to help people who are involved in the production instance of Read the Docs running on readthedocs.org. It contains implementation details and useful hints for the people handling operations of the servers.

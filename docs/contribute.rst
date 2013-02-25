@@ -1,6 +1,6 @@
 .. _contributing-to-read-the-docs:
 
-Contributing to Read the Docs
+贡献 Read the Docs
 =============================
 
 
@@ -10,7 +10,7 @@ You should read the `Open Comparison Contributing Docs`_. They are some of the b
 .. _Open Comparison Contributing Docs: http://opencomparison.readthedocs.org/en/latest/contributing.html
 
 
-Translations
+翻译
 ------------
 
 If you wish to contribute translations, please do so on `Transifex`_.

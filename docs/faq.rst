@@ -1,4 +1,4 @@
-Frequently Asked Questions
+常问问题
 ==========================
 
 My project isn't building with autodoc
@@ -8,13 +8,13 @@ First, you should check out the Builds tab of your project. That records all of 
 
 If you are still seeing errors because of C library dependencies, please see the below section about that.
 
-Do I need to be whitelisted?
+我是否需要列入白名单?
 ----------------------------
 
 No. Whitelisting has been removed as a concept in Read the Docs. You should have access to all of the features already.
 
 
-How do I change behavior for Read the Docs
+为Read the Docs我该如何改变自己的行为
 -------------------------------------------
 
 When RTD builds your project, it sets the `READTHEDOCS` environment variable to the string `True`. So within your Sphinx's conf.py file, you can vary the behavior based on this. For example::
@@ -32,7 +32,7 @@ The ``READTHEDOCS`` variable is also available in the Sphinx build environment, 
     Woo
     {% endif %}
 
-I get import errors on libraries that depend on C modules
+依赖于C模块的库导入错误
 ----------------------------------------------------------
 
 .. note::
