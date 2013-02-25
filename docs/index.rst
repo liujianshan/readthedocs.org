@@ -1,4 +1,4 @@
-Welcome to Read The Docs
+欢迎使用Read The Docs
 ========================
 
 `Read the Docs`_ hosts documentation for the open source community.
@@ -18,7 +18,7 @@ The code is open source, and `available on github`_.
 The documentation for the site is organized into two different sections below. One is for users of readthedocs.org, that is the first section. The next section is for users of the code that powers the site. All of the RTD code is open source, so you can run your own instance. Presumably in an internal install inside your company, or something.
 
 
-Site Documentation
+网站文档
 ------------------
 
 .. toctree::
@@ -35,14 +35,14 @@ Site Documentation
     builds
     talks
 
-Designer Documentation
+设计者文档
 ----------------------
 .. toctree::
     :maxdepth: 2
 
     design
 
-Developer Documentation
+开发者文档
 -----------------------
 .. toctree::
     :maxdepth: 2
@@ -57,14 +57,14 @@ Developer Documentation
     api
     api/index
 
-Custom install Documentation
+自定义安装文档
 ----------------------------
 .. toctree::
     :maxdepth: 3
 
     custom_installs/index
 
-Operations Documentation
+操作文档
 ------------------------
 .. toctree::
     :maxdepth: 2
