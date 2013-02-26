@@ -7,51 +7,51 @@ Servers
 -------
 The servers are themed somewhere between Norse mythology and Final Fantasy Aeons. I tried to keep them topical, and have some sense of their historical meaning and their purpose in the infrastructure.
 
-Domain
+域名
 ~~~~~~
 
   * readthedocs.com
 
-Load Balancer (nginx)
+负载均衡 (nginx)
 ~~~~~~~~~~~~~~~~~~~~~
     * Asgard
 
-Important Files
+重要文件
 ```````````````
     * /etc/nginx/sites-enabled/default
 
-Important Services
+重要服务
 ``````````````````
     * nginx running from init
 
-Web
-~~~
+网络
+~~~~~
     * Chimera
     * Asgard
 
-Important Files
+重要文件
 ```````````````
     * /etc/nginx/sites-enabled/readthedocs
     * /home/docs/sites/readthedocs.org/run/gunicorn.log
 
-Important Services
+重要服务
 ``````````````````
     * nginx running from init
     * gunicorn (running from supervisord as docs user)
 
-Build
+构建
 ~~~~~
     * Build
 
-Important Files
+重要文件
 ```````````````
     * /home/docs/sites/readthedocs.org/run/celery.log
 
-Important Services
+重要服务
 ``````````````````
     * celery (running from supervisord as docs user)
 
-Database
+数据库
 ~~~~~~~~
     * DB
 
@@ -63,29 +63,29 @@ Redis
 ~~~~~
     * DB
 
-Site Checkout
+网站检测
 -------------
 
 ``/home/docs/sites/readthedocs.org/checkouts/readthedocs``
 
-Bash Aliases
+Bash 别名
 ~~~~~~~~~~~~
 
     * `chk` - Will take you to the checkout directory
     * `run` - Will take you to the run directory
 
-Deploying
+部署
 ---------
 
-Pushing code to servers. This updates code & media::
+推送代码到服务器. 这是更新代码 & 媒体::
 
     fab push
 
-Restart the webs::
+重启web服务::
 
     fab restart
 
-Restart the build servers celery::
+重启构建服务器 celery::
 
     fab celery
 
