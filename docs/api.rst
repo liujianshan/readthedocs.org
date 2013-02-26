@@ -79,8 +79,8 @@ Feel free to use cURL and python to look at formatted json examples. You can als
 
     curl http://readthedocs.org/api/v1/project/pip/?format=json | python -m json.tool
 
-根
-----
+资源
+--------
 .. http:method:: GET /api/v1/
 
 .. http:response:: Retrieve a list of resources.
@@ -206,7 +206,7 @@ Feel free to use cURL and python to look at formatted json examples. You can als
    :data integer total_count: Total number of Files.
    :data array objects: Array of `File`_ objects.
 
-点一文件
+单一文件
 -----------------
 .. http:method:: GET /api/v1/file/{id}/
 
@@ -261,7 +261,7 @@ Feel free to use cURL and python to look at formatted json examples. You can als
    :data array objects: Array of `Project`_ objects.
 
    
-点一项目
+单一项目
 ----------------
 .. http:method:: GET /api/v1/project/{id}
 
