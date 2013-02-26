@@ -1,9 +1,9 @@
-生产服务器的配置
+配置生产服务器
 =======================================
 
 This document is to help people who are involved in the production instance of Read the Docs running on readthedocs.org. It contains implementation details and useful hints for the people handling operations of the servers.
 
-Servers
+服务器
 -------
 The servers are themed somewhere between Norse mythology and Final Fantasy Aeons. I tried to keep them topical, and have some sense of their historical meaning and their purpose in the infrastructure.
 
