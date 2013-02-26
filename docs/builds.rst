@@ -4,7 +4,7 @@
 .. Keeping this for backwards compat
 
 
-Changing behavior for Read the Docs
+改变行为
 -----------------------------------
 
 When RTD builds your project, it sets the ``READTHEDOCS`` environment variable to the string `True`. So within your Sphinx's conf.py file, you can vary the behavior based on this. For example::
@@ -58,7 +58,7 @@ An example in code::
     purge_version(version, subdomain=True,
                     mainsite=True, cname=True)
 
-编写您自己的建设者
+编写您自己的构建器
 ------------------------
 
 The documentation build system in RTD is made plugable, so that you can build out your own backend. If you have a documentation format that isn't currently supported, you can add support by contributing a backend.

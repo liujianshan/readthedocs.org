@@ -1,4 +1,4 @@
-Read the Docs 公共API
+公共API
 =========================
 
 We have a limited public API that is available for you to get data out of the site. This page will only show a few of the basic parts, please file a ticket or ping us on IRC (#readthedocs on `Freenode (chat.freenode.net) <http://webchat.freenode.net>`_) if you have feature requests.
@@ -7,7 +7,7 @@ This document covers the read-only API provided. We have plans to create a read/
 
 The API is written in Tastypie, which provides a nice ability to browse the API from your browser. If you go to http://readthedocs.org/api/v1/?format=json and just poke around, you should be able to figure out what is going on.
 
-一个基本的API客户端使用睡眠
+使用 Slumber 基本的API客户端
 --------------------------------
 
 You can use `Slumber <http://slumber.in/>`_ to build basic API wrappers in python. Here is a simple example of using slumber to interact with the RTD API::
@@ -113,8 +113,8 @@ Feel free to use cURL and python to look at formatted json examples. You can als
    :data string list_endpoint: API endpoint for resource.
    :data string schema: API endpoint for schema of resource.
 
-构建
-------
+构建列表
+------------
 .. http:method:: GET /api/v1/build/
 
 .. http:response:: Retrieve a list of Builds.
@@ -140,8 +140,8 @@ Feel free to use cURL and python to look at formatted json examples. You can als
    :data array objects: Array of `Build`_ objects.
 
 
-构建
------
+单一构建
+----------
 .. http:method:: GET /api/v1/build/{id}/
 
    :arg id: A Build id.
@@ -179,8 +179,8 @@ Feel free to use cURL and python to look at formatted json examples. You can als
    :data string type: Build type ("html", "pdf", "man", or "epub")
    :data string version: URI for Version of Build.
 
-文件
------
+文件列表
+----------
 .. http:method:: GET /api/v1/file/
 
 .. http:response:: Retrieve a list of Files.
@@ -206,8 +206,8 @@ Feel free to use cURL and python to look at formatted json examples. You can als
    :data integer total_count: Total number of Files.
    :data array objects: Array of `File`_ objects.
 
-文件
-----
+点一文件
+-----------------
 .. http:method:: GET /api/v1/file/{id}/
 
    :arg id: A File id.
@@ -233,8 +233,8 @@ Feel free to use cURL and python to look at formatted json examples. You can als
    :data object project: A `Project`_ object for the file's project.
    :data string resource_uri: URI for File object.
 
-项目
---------
+项目列表
+-----------
 .. http:method:: GET /api/v1/project/
 
 .. http:response:: Retrieve a list of Projects.
@@ -261,8 +261,8 @@ Feel free to use cURL and python to look at formatted json examples. You can als
    :data array objects: Array of `Project`_ objects.
 
    
-项目
--------
+点一项目
+----------------
 .. http:method:: GET /api/v1/project/{id}
 
    :arg id: A Project id.
@@ -329,8 +329,8 @@ Feel free to use cURL and python to look at formatted json examples. You can als
    :data string version: DEPRECATED. 
 
 
-用户
------
+用户列表
+--------------------
 .. http:method:: GET /api/v1/user/
 
 .. http:response:: Retrieve List of Users
@@ -356,8 +356,8 @@ Feel free to use cURL and python to look at formatted json examples. You can als
    :data array USERS: Array of `User`_ objects.
  
  
-用户
-----
+单一用户
+----------------
 .. http:method:: GET /api/v1/user/{id}/
 
    :arg id: A User id.
@@ -383,8 +383,8 @@ Feel free to use cURL and python to look at formatted json examples. You can als
    :data string username: User name.
    
  
-版本
---------
+版本列表
+-------------------
 .. http:method:: GET /api/v1/version/
 
 .. http:response:: Retrieve a list of Versions.
@@ -411,8 +411,8 @@ Feel free to use cURL and python to look at formatted json examples. You can als
    :data array objects: Array of `Version`_ objects.
 
 
-版本
--------
+单一版本
+--------------------
 .. http:method:: GET /api/v1/version/{id}
 
    :arg id: A Version id.

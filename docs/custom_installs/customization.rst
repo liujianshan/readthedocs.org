@@ -1,15 +1,15 @@
-Customizing your install
+自定义安装
 ========================
 
 Read the Docs has a lot of :doc:`/settings` that help customize your install.
 This document will outline some of the more useful ways that these can be combined.
 
-Have a local settings file
+有个本地配置文件
 --------------------------
 
 If you put a file named ``local_settings.py`` in the ``readthedocs/settings`` directory, it will override settings available in the base install.
 
-Adding your own title to pages
+在页面中添加自己的标题
 ------------------------------
 
 This requires 2 parts of setup. First, you need to add a custom :setting:`TEMPLATE_DIRS` setting that points at your template overrides. Then, in those template overrides you have to insert your logo where the normal RTD logo goes.

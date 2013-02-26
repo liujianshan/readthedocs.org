@@ -4,7 +4,7 @@
 Read the Docs supports 3 different privacy levels on 2 different objects;
 Public, Protected, Private on Projects and Versions.
 
-Understanding the Privacy Levels
+理解隐私级别
 --------------------------------
 
 +------------+------------+-----------+-----------+

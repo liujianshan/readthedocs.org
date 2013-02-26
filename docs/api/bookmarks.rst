@@ -1,4 +1,4 @@
-:mod:`bookmarks`
+:mod:`书签`
 ================
 
 :mod:`bookmarks.admin`

@@ -1,4 +1,4 @@
-Info about custom installs
+自定义安装信息
 ==========================
 
 Read the Docs is open source, which means you can run your own version of it. There are many reasons to do this, the main one being if you want a private instance. If you have to keep everything behind a firewall of VPN, this is for you.
