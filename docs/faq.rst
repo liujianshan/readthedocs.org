@@ -1,7 +1,7 @@
 常问问题
 ==========================
 
-My project isn't building with autodoc
+我的项目没有使用autodoc建设
 --------------------------------------
 
 First, you should check out the Builds tab of your project. That records all of the build attempts that RTD has made to build your project. If you see modules missing, you should enable the virtualenv feature, which will install your project into a virtualenv. If you are still seeing missing dependencies, you can install them with a pip requirements file in your project settings.
