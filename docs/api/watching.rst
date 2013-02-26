@@ -1,4 +1,4 @@
-:mod:`watching`
+:mod:`查看`
 ===============
 
 :mod:`watching.admin`

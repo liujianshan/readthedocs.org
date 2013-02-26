@@ -1,4 +1,4 @@
-:mod:`projects`
+:mod:`项目`
 ===============
 
 :mod:`projects.admin`

@@ -1,4 +1,4 @@
-:mod:`core`
+:mod:`内核`
 ===========
 
 :mod:`core.admin`

@@ -1,4 +1,4 @@
-:mod:`builds`
+:mod:`构建`
 =============
 
 :mod:`builds.admin`

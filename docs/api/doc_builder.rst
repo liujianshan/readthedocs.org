@@ -1,4 +1,4 @@
-:mod:`doc_builder`
+:mod:`文档创建器`
 ==================
 
 :mod:`doc_builder.base`
