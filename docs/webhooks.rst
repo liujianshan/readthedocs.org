@@ -11,14 +11,13 @@ updated within seconds is an awesome feeling.
 Github
 ---------
 
-If your project is hosted on Github, you can easily add a hook that will rebuild
-your docs whenever you push updates:
+如果你的项目托管在Github, 你可以很容易添加一个文档挂钩，任何时候推送更新都会重建:
 
-* Go to the "admin" page for your project
-* Click "Service Hooks"
-* In the available service hooks, click "ReadTheDocs"
-* Check "Active"
-* Click "Update Settings"
+* 到你的项目的 "settings" 页
+* 点击 "Service Hooks"
+* 在可用的服务挂钩里, 点击 "ReadTheDocs"
+* 检测 "Active"
+* 点击 "Update Settings"
 
 Bitbucket
 -----------
