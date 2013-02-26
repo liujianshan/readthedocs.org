@@ -52,7 +52,7 @@ self-descriptive (e.g. very short strings). If you immediately precede the
 string with a comment that starts with ``Translators:``, the comment will be
 added to the PO file, and visible to localizers.
 
-Example::
+例如::
 
     DEFAULT_THEME_CHOICES = (
         # Translators: This is a name of a Sphinx theme.
@@ -278,12 +278,9 @@ make sure you don't forcibly add them to the repository.
 Transifex整合
 ---------------------
 
-To push updated translation source files to Transifex, run ``tx
+推送更新的翻译源文件到Transifex, 运行 ``tx
 push -s`` (for English) or ``tx push -t <language>`` (for non-English).
 
-To pull changes from Transifex, run ``tx pull -a``. Note that Transifex does
-not compile the translation files, so you have to do this after the pull (see
-the :ref:`i18n-compiling` section).
+从Transifex拉取修改内容, 运行 ``tx pull -a``. 注意Transifex不编译翻译文件, 所以需要拉取以后才做 (查看 :ref:`i18n-compiling` 部分).
 
-For more information about the ``tx`` command, read the `Transifex client's
-help pages <http://help.transifex.com/features/client/>`_.
+关于 ``tx`` 命令更多信息请阅读 `Transifex客户端帮助页 <http://help.transifex.com/features/client/>`_.
