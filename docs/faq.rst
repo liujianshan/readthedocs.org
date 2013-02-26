@@ -68,30 +68,30 @@ You can mock out the imports for these modules in your conf.py with the followin
 
 Of course, replacing `MOCK_MODULES` with the modules that you want to mock out.
 
-Where do I need to put my docs for RTD to find it?
+我需要版我的文档放在哪?
 --------------------------------------------------
 
 Read the Docs will crawl your project looking for a ``conf.py``. Where it finds the ``conf.py``, it will run ``sphinx-build`` in that directory. So as long as you only have one set of sphinx documentation in your project, it should Just Work.
 
-I want to use the Blue/Default Sphinx theme
+我想使用 Blue/Default Sphinx 样式
 -------------------------------------------
 
 We think that our theme is badass, and better than the default for many reasons. Some people don't like change though :), so there is a hack that will let you keep using the default theme. If you set the ``html_style`` variable in your ``conf.py``, it should default to using the default theme. The value of this doesn't matter, and can be set to ``/default.css`` for default behavior.
 
 
-Image scaling doesn't work in my documentation
+在我的文档，图像缩放不工作
 -----------------------------------------------
 
 Image scaling in docutils depends on PIL. PIL is installed in the system that RTD runs on. However, if you are using the virtualenv building option, you will likely need to include PIL in your requirements for your project.
 
-I want comments in my docs
+我想评论我的文档
 --------------------------
 
 RTD doesn't have explicit support for this. That said, a tool like `Disqus`_ can be used for this purpose on RTD.
 
 .. _Disqus: http://disqus.com/
 
-How do I support multiple languages of documentation?
+我该如何为文档支持多国语言?
 -----------------------------------------------------
 
 This is something that has been long planned. In fact, we have a language string in the URLs! However, it isn't currently modeled and supported in the code base. However, you can specify the conf.py file to use for a specific version of the documentation. So, you can create a project for each language of documentation, and do it that way. You can then CNAME different domains on your docs to them. Requests does something like this with it's translations:

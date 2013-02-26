@@ -1,9 +1,9 @@
-Read the Docs 功能
+功能
 ======================
 
 This will serve as a list of all of the features that Read the Docs currently has. Some features are important enough to have their own page in the docs, others will simply be listed here.
 
-Github 整合
+整合Github
 ------------------
 
 We now support linking to GitHub by default in the sidebar. It links to the page on GitHub, and directly links to the edit view as well. This should help people quickly update typos and send pull requests to contribute to project documentation.
@@ -49,7 +49,7 @@ We also bust caches on all documentation on the RTD domain (not CNAMEs, yet) whe
 
 Versions are supported at the Version Control level. We support tags and branches that map to versions in RTD parlance. Not all version control systems are equally supported. We would love to accept patches from users of other VCS systems to gain equivalent features across systems.
 
-Version Control Support Matrix
+版本控制支持矩阵
 -------------------------------
 
 +------------+------------+-----------+------------+-----------+

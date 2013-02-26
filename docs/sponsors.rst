@@ -1,9 +1,9 @@
-Sponsors of Read the Docs
+赞助商
 =========================
 
 Running Read the Docs isn't free, and the site wouldn't be where it is today without generous support of our sponsors. Below is a list of all the folks who have helped the site financially, in order of the date they first started supporting us.
 
-Our awesome sponsors
+我们很棒的赞助商
 --------------------
 
     * Revsys_

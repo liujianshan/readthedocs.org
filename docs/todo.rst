@@ -1,8 +1,8 @@
 待办事项
 ============
 
-Easy
-----
+容易
+--------
 * Internationalization (i18n)
 * Screencast of "Hosting your docs in 1 minute"
 * Write better API docs at http://docs.readthedocs.org/en/latest/api.html (https://github.com/deceze/Sphinx-HTTP-domain)
@@ -17,12 +17,12 @@ Sprintable
     - Use the API to track this.
     - Count Pageviews, which domain/CNAME it was served on, version, etc.
 
-Design
+设计
 ------
 * Have a way to hide the bottom right widget (slides away)
 * Make a richer experience with the widget (eg. PDF downloads)
 
-Hard/Refactors
+硬/重构
 --------------
 * Internationalization (i18n)
 * Make hosting RTD internally more supported/easier

@@ -10,7 +10,7 @@ The mailing list at `readthedocs@librelist.org`_ is also available for support.
 .. _Freenode: irc://freenode.net/
 .. _Github: http://github.com/rtfd/readthedocs.org/issues
 
-Backwards Incompatible Changes
+向后兼容改变
 ==============================
 
 Backwards Incompatible Changes will be emailed to the mailing list,

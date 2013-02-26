@@ -32,7 +32,7 @@ your docs whenever you push updates:
 * Put "http://readthedocs.org/bitbucket" as the URL
 * Click "Save Settings"
 
-Others
+其它
 ------
 
 Your ReadTheDocs project detail page has your post-commit hook on it; it will

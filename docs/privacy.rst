@@ -17,13 +17,13 @@ Understanding the Privacy Levels
 | Public     | Yes        | Yes       | Yes       |
 +------------+------------+-----------+-----------+
 
-Public
+公共
 ~~~~~~
 
 This is the easiest and most obvious. It is also the default.
 It means that everything is available to be seen by everyone.
 
-Protected
+保护
 ~~~~~~~~~
 
 Protected means that your object won't show up in Listing Pages,
@@ -35,22 +35,22 @@ Protected Versions are similar, they won't show up in your version listings,
 but will be available once linked to.
 
 
-Private
+隐私
 ~~~~~~~
 
 Private objects are available only to people who have permissions so see them.
 They will not display on any list view, and will 404 when you link them to others.
 
-Project Objects
+项目对象
 ----------------
 
-Detail Views
+详细视图
 ~~~~~~~~~~~~
 
     * Project Detail (/projects/<slug>)
     * API Detail (/api/v1/project/<slug>/)
 
-List Views
+列表视图
 ~~~~~~~~~~
 
     * Home Page
@@ -59,10 +59,10 @@ List Views
     * Search 
 
 
-Version Objects
+版本对象
 ----------------
 
-List Views
+列表视图
 ~~~~~~~~~~
 
     * Project Detail (/projects/<slug>)

@@ -60,7 +60,7 @@ the ``update_repos`` command::
    ./manage.py update_repos pip
 
 
-Solr (Search) Setup
+Solr (搜索) 设置
 -------------------
 Apache Solr is used to index and search documents. 
 
@@ -98,7 +98,7 @@ Index the data::
     file must be replaced with the version built by django-haystack.
 
 
-What's available
+什么是可用
 ----------------
 
 After registering with the site (or creating yourself a superuser account),
@@ -108,7 +108,7 @@ From the dashboard you can either create new documentation, or import your exist
 docs provided that they are in a git or mercurial repo.
 
 
-Creating new Docs
+创建新文档
 ^^^^^^^^^^^^^^^^^
 
 One of the goals of `readthedocs.org <http://readthedocs.org>`_ is to make it
@@ -119,7 +119,7 @@ build the docs, give you access to history on every revision of your files,
 and we plan on adding more features in the weeks and months to come.
 
 
-Importing existing docs
+导入现有的文档
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 The other side of `readthedocs.org <http://readthedocs.org>`_ is hosting the

@@ -1,6 +1,6 @@
 .. _designing-read-the-docs: 
 
-设计 Read the Docs
+设计
 =======================
 
 So you're thinking of contributing some of your
